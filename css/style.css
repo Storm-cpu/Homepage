@@ -58,9 +58,10 @@ body{
 
 .text-bg span {
   color: #fdd430;
+  line-height: 120%;
+  margin-top: 0;
   font-size: 400%;
   font-family: 'Montserrat', sans-serif;
-  line-height: 35px;
   font-weight: bold;
 }
 
@@ -81,7 +82,7 @@ body{
   color: #fff;
   padding: 10px 0px;
   width: 100%;
-  max-width: 190px;
+  max-width: 20rem;
   text-align: center;
   display: inline-block;
   text-transform: uppercase;
@@ -132,7 +133,7 @@ body{
 }
 
 .overview-body h3 {
-  margin-top: 5vh;
+  margin: 5vh 0 0 0;
   font-size: 200%;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -166,14 +167,13 @@ body{
 
 /* Icon */
 .fa-facebook,.fa-instagram,.fa-github,.fa-envelope,.fa-youtube{
-  color: #fff;
+  color: #3DB2FF;
   font-size: 500%;
   margin: 0 2vw 0 2vw;
   text-decoration: none;
 }
 
 .fa-facebook:hover,.fa-instagram:hover,.fa-github:hover,.fa-envelope:hover,.fa-youtube:hover{
-  color: #3DB2FF;
   font-size: 550%;
   transition: 0.6s;
 }
@@ -208,5 +208,32 @@ body{
     margin: 0px;
     margin-top: 4vw;
     margin-left: 15%;
+  }
+  /* Overview */
+  #overview h1 {
+    font-size: 300%;
+  }
+  .overview-body h3 {
+    margin-top: 4vh;
+    font-size: 150%;
+  }
+  .overview-body p {
+    font-size: 100%;
+    padding: 2px 0;
+  }
+
+  #contract h1{
+    font-size: 200%;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+  }
+  .fa-facebook,.fa-instagram,.fa-github,.fa-envelope,.fa-youtube{
+    font-size: 300%;
+    margin: 0 2vw 0 2vw;
+    text-decoration: none;
+  }
+  .fa-facebook:hover,.fa-instagram:hover,.fa-github:hover,.fa-envelope:hover,.fa-youtube:hover{
+    font-size: 350%;
+    transition: 0.6s;
   }
 }
