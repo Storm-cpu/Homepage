@@ -28,7 +28,7 @@
 }
 
 body{
-  background: #10103a;
+  background: #F6F6F6;
   padding: 0;
   margin: 0;
 }
@@ -113,16 +113,14 @@ body{
   position: relative;
   height: 100vh;
   width: 100%;
-  background: #F6F6F6
 }
 
 #overview h1 {
   font-size: 400%;
   text-align: center;
-  padding-top: 3vh;
+  padding-top: 5vh;
   font-family: 'Montserrat', sans-serif;
   color:#0f8aac;
-  line-height: 35px;
   font-weight: bold;
   margin-bottom: 2vw;
 }
@@ -151,9 +149,10 @@ body{
 
 #contract{
   position: relative;
-  height: 30vh;
+  height: auto;
   width: 100%;
   text-align: center;
+  background: #10103a;
 }
 
 #contract h1{
@@ -161,7 +160,7 @@ body{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   padding-top: 3vh;
-  padding-bottom: 5vh;
+  padding-bottom: 2vh;
   color: #FFC947;
 }
 
@@ -169,7 +168,7 @@ body{
 .fa-facebook,.fa-instagram,.fa-github,.fa-envelope,.fa-youtube{
   color: #3DB2FF;
   font-size: 500%;
-  margin: 0 2vw 0 2vw;
+  padding: 0 2vw 4vh 2vw;
   text-decoration: none;
 }
 
@@ -221,7 +220,6 @@ body{
     font-size: 100%;
     padding: 2px 0;
   }
-
   #contract h1{
     font-size: 200%;
     padding-top: 4vh;
