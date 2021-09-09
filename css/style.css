@@ -244,7 +244,7 @@ body {
   }
   #overview h1 {
     font-size: 300%;
-    padding-top: 11vh;
+    padding-top: 12vh;
   }
   .overview-body h3 {
     margin-top: 4vh;
@@ -256,7 +256,7 @@ body {
   }
   #contract h1 {
     font-size: 200%;
-    padding-top: 4vh;
+    padding-top: 2vh;
     padding-bottom: 2vh;
   }
   .fa-facebook,
@@ -265,7 +265,7 @@ body {
   .fa-envelope,
   .fa-youtube {
     font-size: 300%;
-    margin: 0 2vw 2vh 2vw;
+    margin: 0 0.5vw 0.5vh 0.5vw;
     text-decoration: none;
   }
   .fa-facebook:hover,
