@@ -35,8 +35,7 @@ body {
 
 /* Home */
 #home {
-  position: relative;
-  height: 102vh;
+  height: 60rem;
   width: 100%;
   background: #10103a;
 }
@@ -204,6 +203,9 @@ body {
   }
 
   /* Banner */
+  #home {
+    height: 53rem;
+  }
   .main-banner {
     margin-left: auto;
     margin-right: auto;
@@ -228,13 +230,14 @@ body {
     font-size: 120%;;
   }
   .text-img {
-    position:unset;
+    position: absolute;
     display: none;
+    margin: 0;
+    padding: 0;
   }
   .text-img figure {
     margin: 0px;
-    margin-top: 4vw;
-    margin-left: 15%;
+    padding: 0;
   }
 
   /* Overview */
