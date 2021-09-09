@@ -7,10 +7,10 @@
 
 #logo a {
   color: #fdd430 !important;
-  padding-left: 11.5vw; 
+  padding-left: 11.5vw;
   font-weight: 700;
   font-size: 220%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 #nav-item a {
@@ -27,21 +27,21 @@
   transition: 0.5s;
 }
 
-body{
-  background: #F6F6F6;
+body {
+  background: #f6f6f6;
   padding: 0;
   margin: 0;
 }
 
 /* Home */
-#home{
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    background: #10103a;
+#home {
+  position: relative;
+  height: 102vh;
+  width: 100%;
+  background: #10103a;
 }
 
-.main-banner{
+.main-banner {
   padding-top: 8vh;
   padding-left: 10vw;
   padding-bottom: 15.5vh;
@@ -50,10 +50,11 @@ body{
 .text-bg h1 {
   color: #fff;
   font-size: 600%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 80px;
   padding-bottom: 25px;
   padding-top: 4vw;
+  font-weight: bold;
 }
 
 .text-bg span {
@@ -61,7 +62,7 @@ body{
   line-height: 120%;
   margin-top: 0;
   font-size: 400%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 
@@ -70,7 +71,7 @@ body{
   font-size: 150%;
   line-height: 28px;
   padding: 40px 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .text-bg a {
@@ -87,7 +88,7 @@ body{
   display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .text-bg a:hover {
@@ -109,7 +110,7 @@ body{
 }
 
 /* Overview */
-#overview{
+#overview {
   position: relative;
   height: 100vh;
   width: 100%;
@@ -119,8 +120,8 @@ body{
   font-size: 400%;
   text-align: center;
   padding-top: 5vh;
-  font-family: 'Montserrat', sans-serif;
-  color:#0f8aac;
+  font-family: "Montserrat", sans-serif;
+  color: #0f8aac;
   font-weight: bold;
   margin-bottom: 2vw;
 }
@@ -133,7 +134,7 @@ body{
 .overview-body h3 {
   margin: 5vh 0 0 0;
   font-size: 200%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 
@@ -141,13 +142,12 @@ body{
   color: #000;
   font-size: 120%;
   padding: 8px 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
 }
 
 /* Contract */
-
-#contract{
+#contract {
   position: relative;
   height: auto;
   width: 100%;
@@ -155,62 +155,96 @@ body{
   background: #10103a;
 }
 
-#contract h1{
+#contract h1 {
   font-size: 300%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   padding-top: 3vh;
   padding-bottom: 2vh;
-  color: #FFC947;
+  color: #ffc947;
 }
 
 /* Icon */
-.fa-facebook,.fa-instagram,.fa-github,.fa-envelope,.fa-youtube{
-  color: #3DB2FF;
+.fa-facebook,
+.fa-instagram,
+.fa-github,
+.fa-envelope,
+.fa-youtube {
+  color: #3db2ff;
   font-size: 500%;
   padding: 0 2vw 4vh 2vw;
   text-decoration: none;
 }
 
-.fa-facebook:hover,.fa-instagram:hover,.fa-github:hover,.fa-envelope:hover,.fa-youtube:hover{
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-github:hover,
+.fa-envelope:hover,
+.fa-youtube:hover {
   font-size: 550%;
   transition: 0.6s;
 }
 
 /* Reponsive */
 @media screen and (max-width: 770px) {
-  .text-img { 
-    display: none;
-  }
+  /* Nav */
   .logo a {
     padding-left: 9vw;
-    font-size: 180%;
-  }
-  .main-banner{
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10vh;
-    text-align: center;
-    padding-left: 0;
+    font-size: 120%;
   }
   #nav-item a {
     font-size: 120%;
-    padding-left: 6vw
+    padding-left: 6vw;
   }
   #nav-item a:hover {
     font-size: 130%;
   }
-  #logo a{
+  #logo a {
     padding-left: 5vw;
+  }
+
+  /* Banner */
+  .main-banner {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4vh; 
+    text-align: center;
+    padding-left: 0;
+  }
+  .text-bg h1 {
+    font-size: 400%;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+    padding-top: 2vw;
+  }
+  .text-bg span {
+    color: #fdd430;
+    line-height: 120%;
+    margin-top: 0;
+    font-size: 300%;
+  }
+  .text-bg p {
+    color: #fff;
+    font-size: 120%;;
+  }
+  .text-img {
+    position:unset;
+    display: none;
   }
   .text-img figure {
     margin: 0px;
     margin-top: 4vw;
     margin-left: 15%;
   }
+
   /* Overview */
+  .overview-body {
+    margin: 0 5vw 0 5vw;
+    text-align: center;
+  }
   #overview h1 {
     font-size: 300%;
+    padding-top: 10vh;
   }
   .overview-body h3 {
     margin-top: 4vh;
@@ -220,17 +254,25 @@ body{
     font-size: 100%;
     padding: 2px 0;
   }
-  #contract h1{
+  #contract h1 {
     font-size: 200%;
     padding-top: 4vh;
     padding-bottom: 2vh;
   }
-  .fa-facebook,.fa-instagram,.fa-github,.fa-envelope,.fa-youtube{
+  .fa-facebook,
+  .fa-instagram,
+  .fa-github,
+  .fa-envelope,
+  .fa-youtube {
     font-size: 300%;
-    margin: 0 2vw 0 2vw;
+    margin: 0 2vw 2vh 2vw;
     text-decoration: none;
   }
-  .fa-facebook:hover,.fa-instagram:hover,.fa-github:hover,.fa-envelope:hover,.fa-youtube:hover{
+  .fa-facebook:hover,
+  .fa-instagram:hover,
+  .fa-github:hover,
+  .fa-envelope:hover,
+  .fa-youtube:hover {
     font-size: 350%;
     transition: 0.6s;
   }
